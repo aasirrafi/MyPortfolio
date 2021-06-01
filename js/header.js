@@ -26,7 +26,7 @@ window.onload = function () {
   >
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="../home.html"
+        <a class="nav-link" href="./home.html"
           >Home <span class="sr-only">(current)</span></a
         >
       </li>
@@ -66,7 +66,7 @@ window.onload = function () {
   <div class="main ml-auto h-100">
     <ul class="ml-auto">
       <li>
-        <a href="../home.html">
+        <a href="./home.html">
           <div class="icon ml-auto">
             <p class="my-auto"><span>home</span></p>
             <i class="fa fa-home"></i>
