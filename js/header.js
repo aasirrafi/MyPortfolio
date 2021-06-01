@@ -31,22 +31,22 @@ window.onload = function () {
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/navigation/about.html"
+        <a class="nav-link" href="./about.html"
           >About <span class="sr-only">(current)</span></a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/navigation/portfolio.html"
+        <a class="nav-link" href="./portfolio.html"
           >Portfolio <span class="sr-only">(current)</span></a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/navigation/blog.html"
+        <a class="nav-link" href="./blog.html"
           >Blog <span class="sr-only">(current)</span></a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/navigation/contact.html"
+        <a class="nav-link" href="./contact.html"
           >Contact <span class="sr-only">(current)</span></a
         >
       </li>
@@ -74,7 +74,7 @@ window.onload = function () {
         </a>
       </li>
       <li>
-        <a href="/navigation/about.html">
+        <a href="./about.html">
           <div class="icon ml-auto">
             <p class="my-auto"><span>About</span></p>
             <i class="fas fa-user"></i>
@@ -82,7 +82,7 @@ window.onload = function () {
         </a>
       </li>
       <li>
-        <a href="/navigation/portfolio.html">
+        <a href="./portfolio.html">
           <div class="icon ml-auto">
             <p class="my-auto"><span>Portfolio</span></p>
             <i class="fa fa-briefcase"></i>
@@ -90,7 +90,7 @@ window.onload = function () {
         </a>
       </li>
       <li>
-        <a href="/navigation/blog.html">
+        <a href="./blog.html">
           <div class="icon ml-auto">
             <p class="my-auto"><span>Blog</span></p>
             <i class="fa fa-envelope-open"></i>
@@ -99,7 +99,7 @@ window.onload = function () {
       </li>
 
       <li>
-        <a href="/navigation/contact.html">
+        <a href="./contact.html">
           <div class="icon ml-auto">
             <p class="my-auto"><span>Contact</span></p>
             <i class="mx-auto fa fa-home"></i>
