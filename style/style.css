@@ -669,7 +669,7 @@ body {
 }
 
 .project-items img {
-  object-fit: contain;
+  object-fit: fill;
   height: 250px;
   width: 100%;
 }
@@ -687,7 +687,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+}
+
+.textport h6 {
+  font-size: 1rem;
 }
 .overlay-left {
   height: 0%;
