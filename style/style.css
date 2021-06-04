@@ -280,6 +280,10 @@ body {
     padding-top: 100px !important;
   }
 
+  .experience-in-years p {
+    font-size: 1rem !important;
+  }
+
   .content {
     text-align: center;
     width: 100%;
@@ -370,7 +374,7 @@ body {
   font-size: 1.5rem;
 }
 .experience-in-years p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .experience-in-years {
   border-radius: 5px;
@@ -669,7 +673,7 @@ body {
 }
 
 .project-items img {
-  object-fit: fill;
+  object-fit: cover;
   height: 250px;
   width: 100%;
 }
