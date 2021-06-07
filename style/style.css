@@ -311,6 +311,11 @@ body {
   .about-heading {
     display: none;
   }
+
+  .experience-in-years p {
+    font-size: 0.8rem !important;
+    text-align: left;
+  }
 }
 
 .about-img img {
