@@ -676,6 +676,7 @@ body {
   object-fit: cover;
   height: 250px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .overlay {
@@ -694,7 +695,10 @@ body {
 }
 
 .textport h6 {
-  font-size: 1rem;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .overlay-left {
   height: 0%;
@@ -707,4 +711,5 @@ body {
 .hover-effect:hover .overlay {
   height: 100%;
   opacity: 1;
+  border-radius: 10px;
 }
