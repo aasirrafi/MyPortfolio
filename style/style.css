@@ -308,6 +308,9 @@ body {
     margin: auto 0;
     width: 100%;
   }
+  .main-content {
+    padding: 0 !important;
+  }
   .about-heading {
     display: none;
   }
@@ -492,13 +495,15 @@ body {
 }
 
 .value {
-  font-size: 13px;
-}
-
-.my-details .value {
   font-size: 15px;
   font-weight: 600;
+  line-height: 30px;
 }
+
+/* .my-details .value {
+  font-size: 15px;
+  font-weight: 600;
+} */
 
 .form-items {
   padding-top: 100px;
