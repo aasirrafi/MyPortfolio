@@ -3,7 +3,7 @@ let head = document.getElementById("header-section");
 window.onload = function () {
   let headerSmall = `
   <nav class="navbar navbar-expand-lg navbar-dark sm-nav fixed-top">
-  <a class="navbar-brand" href="home.html"
+  <a class="navbar-brand" href="../index.html"
     ><span class="tag"> < </span> AASIR
     <span>RAFI <span class="tag">/></span></span></a
   >
@@ -26,7 +26,7 @@ window.onload = function () {
   >
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="./home.html"
+        <a class="nav-link" href="../index.html"
           >Home <span class="sr-only">(current)</span></a
         >
       </li>
@@ -66,7 +66,7 @@ window.onload = function () {
   <div class="main ml-auto h-100">
     <ul class="ml-auto">
       <li>
-        <a href="./home.html">
+        <a href="../index.html">
           <div class="icon ml-auto">
             <p class="my-auto"><span>home</span></p>
             <i class="fa fa-home"></i>
