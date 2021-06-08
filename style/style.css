@@ -223,104 +223,6 @@ body {
   /* font-size: 1.4em; */
 }
 
-@media (max-width: 991.98px) {
-  .main-section {
-    width: 80%;
-  }
-
-  .content p {
-    width: 100%;
-    font-size: 1.5em;
-    margin: 25px auto;
-  }
-
-  .main-content {
-    margin: 0;
-  }
-  .main {
-    display: none;
-  }
-  .sm-nav {
-    display: block;
-    z-index: 999;
-    float: right;
-
-    width: 100%;
-  }
-  .navbar-toggler {
-    float: right;
-  }
-
-  .articles {
-    padding-top: 100px;
-  }
-
-  .color-block {
-    display: none;
-  }
-
-  .image {
-    justify-content: center;
-    display: flex;
-    margin: auto 0 10px auto;
-    padding-top: 100px;
-  }
-
-  .image-about {
-    padding-top: 100px !important;
-  }
-  .image img {
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    border: 7px solid var(--border-color);
-  }
-
-  .articles {
-    padding-top: 100px !important;
-  }
-
-  .experience-in-years p {
-    font-size: 1rem !important;
-  }
-
-  .content {
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-    margin: 0px auto;
-  }
-
-  h1 {
-    font-size: 35px;
-  }
-  h4 {
-    display: none;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .image {
-    display: none;
-  }
-  .content {
-    text-align: left;
-    margin: auto 0;
-    width: 100%;
-  }
-  .main-content {
-    padding: 0 !important;
-  }
-  .about-heading {
-    display: none;
-  }
-
-  .experience-in-years p {
-    font-size: 0.8rem !important;
-    text-align: left;
-  }
-}
-
 .about-img img {
   border: 7px solid var(--border-color);
   border-radius: 50%;
@@ -722,4 +624,172 @@ body {
   height: 100%;
   opacity: 1;
   border-radius: 10px;
+}
+
+/* SKILLS ABOUT */
+.all-skills {
+  width: 90%;
+}
+.main-skills {
+  font-size: 1em;
+}
+
+.main-skills h6 {
+  font-size: 18px;
+}
+
+.skill-1 {
+  line-height: 40px;
+}
+.bar {
+  height: 20px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: var(--border-color);
+  border-radius: 20px;
+}
+
+.skill-html {
+  width: 80%;
+  background-color: var(--theme-color);
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.skill-css {
+  width: 80%;
+  background-color: var(--theme-color);
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.skill-bootstrap {
+  width: 75%;
+  background-color: var(--theme-color);
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.skill-javascript {
+  width: 50%;
+  background-color: var(--theme-color);
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.skill-reactjs {
+  width: 45%;
+  background-color: var(--theme-color);
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 991.98px) {
+  .main-section {
+    width: 80%;
+  }
+
+  .content p {
+    width: 100%;
+    font-size: 1.5em;
+    margin: 25px auto;
+  }
+
+  .main-content {
+    margin: 0;
+  }
+  .main {
+    display: none;
+  }
+  .sm-nav {
+    display: block;
+    z-index: 999;
+    float: right;
+
+    width: 100%;
+  }
+  .navbar-toggler {
+    float: right;
+  }
+
+  .articles {
+    padding-top: 100px;
+  }
+
+  .color-block {
+    display: none;
+  }
+
+  .image {
+    justify-content: center;
+    display: flex;
+    margin: auto 0 10px auto;
+    padding-top: 100px;
+  }
+
+  .image-about {
+    padding-top: 100px !important;
+  }
+  .image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 7px solid var(--border-color);
+  }
+
+  .articles {
+    padding-top: 100px !important;
+  }
+
+  .experience-in-years p {
+    font-size: 1rem !important;
+  }
+
+  .content {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+  h4 {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .image {
+    display: none;
+  }
+  .content {
+    text-align: left;
+    margin: auto 0;
+    width: 100%;
+  }
+  .main-content {
+    padding: 0 !important;
+  }
+  .about-heading {
+    display: none;
+  }
+
+  .experience-in-years p {
+    font-size: 0.8rem !important;
+    text-align: left;
+  }
+
+  .skill-image {
+    display: none;
+  }
 }
