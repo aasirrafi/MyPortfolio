@@ -792,4 +792,7 @@ body {
   .skill-image {
     display: none;
   }
+  .all-skills {
+    width: 80%;
+  }
 }
